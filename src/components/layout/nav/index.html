@@ -1,0 +1,28 @@
+<div class="cw-cmp-navs">
+  <el-scrollbar ref="refScrollBar" @wheel.prevent="onScrollbarWheel">
+    <div class="cw-cmp-navs_wapper">
+      <div :ref="(el)=>{ if(el) refNavs[index] = el }" class="cw-cmp-navs_wapper_nav" @click="navigateTo(nav, index)"
+        :class="route.path === nav.path ? 'active' : ''" v-for="(nav, index) in navs" :key="nav.path">
+        <span>{{nav.meta.title}}</span>
+        <el-icon v-if="!nav.meta.affix">
+          <Close @click.stop="removeNav(nav)" />
+        </el-icon>
+      </div>
+    </div>
+
+  </el-scrollbar>
+
+  <el-dropdown trigger="click" @command="onDropdownClick">
+    <el-icon :size="14">
+      <More />
+    </el-icon>
+    <template #dropdown>
+      <el-dropdown-menu>
+        <el-dropdown-item command="refresh">刷新当前页面</el-dropdown-item>
+        <el-dropdown-item command="closeOther">关闭其他页面</el-dropdown-item>
+        <el-dropdown-item command="closeAll">关闭全部页面</el-dropdown-item>
+      </el-dropdown-menu>
+    </template>
+  </el-dropdown>
+
+</div>

@@ -1,0 +1,16 @@
+<template v-for="menu in menus">
+  <el-sub-menu :index="menu.meta.title" v-if="menu.children && menu.children.length">
+    <template #title>
+      <icon-svg :name="menu.meta.icon || 'app'" class="cw-layout-menu-svgicon"></icon-svg>
+      <span>{{menu.meta.title}}</span>
+    </template>
+    <layoutMenuItem :menus="menu.children"></layoutMenuItem>
+  </el-sub-menu>
+  <el-menu-item :index="menu.path" :route="menu" v-else>
+    <icon-svg :name="menu.meta.icon || 'app'" class="cw-layout-menu-svgicon"
+      :color="activePath === menu.path ? themeColor: ''"></icon-svg>
+    <template #title>
+      <span>{{menu.meta.title}}</span>
+    </template>
+  </el-menu-item>
+</template>

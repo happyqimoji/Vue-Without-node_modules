@@ -1,0 +1,1 @@
+.cw-layout-header{display:flex;align-items:center;width:100%;height:100%;justify-content:space-between}.cw-layout-header_left_collapse{cursor:pointer}.cw-layout-header_center{flex:1}.cw-layout-header>.el-space>svg:hover>path{fill:var(--el-color-primary) !important}.cw-layout-header>.el-space>.el-space__item:last-child{margin-right:0px !important}

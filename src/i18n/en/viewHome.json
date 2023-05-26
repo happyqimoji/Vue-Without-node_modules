@@ -1,0 +1,17 @@
+{
+  "echart": {
+    "title": "Stacked Line",
+    "email": "Email",
+    "unionAds": "Union Ads",
+    "videoAds": "Video Ads",
+    "direct": "Direct",
+    "searchEngine": "Search Engine",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  }
+}

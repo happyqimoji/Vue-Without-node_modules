@@ -1,0 +1,18 @@
+.cw-layout-header-theme_grids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+
+  &_grid {
+    border-radius: 4px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+
+    &:hover {
+      box-shadow: var(--el-box-shadow-dark);
+    }
+  }
+}

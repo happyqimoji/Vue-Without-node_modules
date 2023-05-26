@@ -1,0 +1,10 @@
+<el-dropdown trigger="hover" @command="method.execCommand">
+  <el-avatar :size="data.iconSize" :icon="data.UserFilled"
+    src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></el-avatar>
+  <template #dropdown>
+    <el-dropdown-menu>
+      <el-dropdown-item command="persionalInfo">个人信息</el-dropdown-item>
+      <el-dropdown-item command="signout">退出登录</el-dropdown-item>
+    </el-dropdown-menu>
+  </template>
+</el-dropdown>

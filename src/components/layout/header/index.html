@@ -1,0 +1,14 @@
+<div class="cw-layout-header">
+  <div class="cw-layout-header_left">
+    <icon-svg class="cw-layout-header_left_collapse" name="collsable" width="28px" height="28px"
+      :color="data.themeColor" @click="method.collapse"
+      :style="{'transform' : data.collapse ? 'rotate(180deg)' : ''}"></icon-svg>
+  </div>
+  <div class="cw-layout-header_center"></div>
+  <el-space class="cw-layout-header_right" :size="20">
+    <layout-header-language></layout-header-language>
+    <layout-header-theme></layout-header-theme>
+    <layout-header-msg></layout-header-msg>
+    <layout-header-user></layout-header-user>
+  </el-space>
+</div>

@@ -1,0 +1,11 @@
+<el-popover trigger="hover" placement="bottom" effect="light" width="320">
+  <span>主题色</span>
+  <div class="cw-layout-header-theme_grids">
+    <div class="cw-layout-header-theme_grids_grid" v-for="color in data.predefineColors" :key="color"
+      :style="{background: color}" @click="method.changeTheme(color)"></div>
+  </div>
+  <template #reference>
+    <icon-svg name="theme" :color="data.iconColor" :width="data.iconSize + 'px'"
+      :height="data.iconSize + 'px'"></icon-svg>
+  </template>
+</el-popover>

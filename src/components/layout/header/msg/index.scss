@@ -1,0 +1,7 @@
+.cw-layout-header-msg {
+  &>.el-badge__content {
+    &.is-fixed {
+      transform: translateY(-50%) translateX(100%) scale(.8) !important;
+    }
+  }
+}

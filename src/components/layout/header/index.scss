@@ -1,0 +1,25 @@
+.cw-layout-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+
+  &_left {
+    &_collapse {
+      cursor: pointer;
+    }
+  }
+
+  &_center {
+    flex: 1;
+  }
+
+  &_right {}
+
+  &>.el-space {
+    &>.el-space__item:last-child {
+      margin-right: 0px !important;
+    }
+  }
+}

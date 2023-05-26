@@ -1,0 +1,17 @@
+{
+  "echart": {
+    "title": "折线图堆叠",
+    "email": "邮箱",
+    "unionAds": "工会广告",
+    "videoAds": "视频广告",
+    "direct": "直播",
+    "searchEngine": "搜索引擎",
+    "mon": "周一",
+    "tue": "周二",
+    "wed": "周三",
+    "thu": "周四",
+    "fri": "周五",
+    "sat": "周六",
+    "sun": "周日"
+  }
+}

@@ -1,0 +1,10 @@
+<el-dropdown trigger="hover" @command="method.changeLanguage">
+  <icon-svg name="language" :color="data.iconColor" :width="data.iconSize + 'px'"
+    :height="data.iconSize + 'px'"></icon-svg>
+  <template #dropdown>
+    <el-dropdown-menu>
+      <el-dropdown-item :disabled="locale.key === data.locale" :command="locale.key" v-for="locale in data.locales"
+        :key="locale.key">{{locale.value}}</el-dropdown-item>
+    </el-dropdown-menu>
+  </template>
+</el-dropdown>

@@ -1,0 +1,146 @@
+[
+  {
+    "path": "/home",
+    "name": "home",
+    "component": "views/home/index.js",
+    "meta": {
+      "title": "首页",
+      "order": 1,
+      "affix": true
+    }
+  },
+  {
+    "meta": {
+      "title": "应用中心"
+    },
+    "children": [
+      {
+        "path": "/app1",
+        "name": "app1",
+        "component": "views/app/index.js",
+        "meta": {
+          "title": "我的应用1"
+        }
+      },
+      {
+        "path": "/app2",
+        "name": "app2",
+        "component": "views/dynamic/index.js",
+        "meta": {
+          "title": "动态页签"
+        }
+      },
+      {
+        "meta": {
+          "title": "其他应用"
+        },
+        "children": [
+          {
+            "path": "/otherapp1",
+            "name": "otherapp1",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用1"
+            }
+          },
+          {
+            "path": "/otherapp2",
+            "name": "otherapp2",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用2"
+            }
+          },
+          {
+            "path": "/otherapp3",
+            "name": "otherapp3",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用3"
+            }
+          },
+          {
+            "path": "/otherapp4",
+            "name": "otherapp4",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用4"
+            }
+          },
+          {
+            "path": "/otherapp5",
+            "name": "otherapp5",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用5"
+            }
+          },
+          {
+            "path": "/otherapp6",
+            "name": "otherapp6",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用6"
+            }
+          },
+          {
+            "path": "/otherapp7",
+            "name": "otherapp7",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用7"
+            }
+          },
+          {
+            "path": "/otherapp8",
+            "name": "otherapp8",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用8"
+            }
+          },
+          {
+            "path": "/otherapp9",
+            "name": "otherapp9",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用9"
+            }
+          },
+          {
+            "path": "/otherapp10",
+            "name": "otherapp10",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用10"
+            }
+          },
+          {
+            "path": "/otherapp11",
+            "name": "otherapp11",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用11"
+            }
+          },
+          {
+            "path": "/otherapp12",
+            "name": "otherapp12",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用12"
+            }
+          },
+          {
+            "path": "/otherapp13",
+            "name": "otherapp13",
+            "component": "views/app/index.js",
+            "meta": {
+              "title": "其他应用13"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

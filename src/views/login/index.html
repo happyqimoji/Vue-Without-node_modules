@@ -1,0 +1,15 @@
+<div class="cw-view-login">
+  <div class="cw-view-login_formwapper" label-width="120px">
+    <el-form :form="form">
+      <el-form-item :label="$t('system.viewLogin.username')">
+        <el-input v-model="form.username"></el-input>
+      </el-form-item>
+      <el-form-item :label="$t('system.viewLogin.password')">
+        <el-input type="password" v-model="form.password"></el-input>
+      </el-form-item>
+      <el-form-item>
+        <el-button @click="login">{{$t("system.viewLogin.loginButton")}}</el-button>
+      </el-form-item>
+    </el-form>
+  </div>
+</div>
