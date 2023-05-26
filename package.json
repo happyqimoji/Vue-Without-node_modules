@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "sass": "sass -w ./src --no-source-map --style=compressed",
+    "build.dev": "node build.dev.js",
+    "build.prod": "node build.prod.js"
+  }
+}
