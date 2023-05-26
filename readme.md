@@ -1,9 +1,10 @@
 # Vue Without node_modules
+如果您喜欢Vue框架，并且已经厌倦了node_modules，不妨试试这个项目框架，也许可以为您打开新世界的大门。本项目框架不依赖npm
 
 ## 开发环境搭建
 1. 开发工具：vscode
 2. 在vscode中安装Live Server插件
-3. 安装node环境，推荐使用nvm安装多版本，需要安装16及以上的版本
+3. 安装node环境，推荐使用nvm安装多版本，需要安装16及以上的版本（如果不需要代码混淆、sass命令自动生成css文件，可以不安装）
 4. 安装全局依赖（如果不需要代码混淆、sass命令自动生成css文件，可以不安装）
 ```javascript
 npm install javascript-obfuscator -g //打包发布时，混淆javascript代码
